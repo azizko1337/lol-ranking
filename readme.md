@@ -2,9 +2,9 @@
 
 ### This project is API which checks given people' League of Legends ranking points every 1 hour (00:00, 01:00, ...). Every midnight ranking snapshot is saved to "database". (For simplicity I used json files as database). Project contains also minimalistic front-end (index page) with day-by-day ranking graph.
 
-## Currently hosted on https://riot.antonizalupka.cf
+## Currently hosted on https://riot.azalupka.cc
 
-## Front-end to this API written by my friend: http://soloqtable.epizy.com
+## Front-end to this API written by my friend: http://soloqtable.epizy.com ( temporary down :( )
 
 ## Instruction to run this project:
 
