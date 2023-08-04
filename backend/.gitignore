@@ -1,0 +1,7 @@
+node_modules
+
+db/history.json
+db/nicks.json
+logs.txt
+
+_old
