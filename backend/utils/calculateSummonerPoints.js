@@ -1,20 +1,17 @@
 function calculateSummonerPoints(tier, rank, leaguePoints) {
   let summonerPoints = leaguePoints;
   switch (rank) {
-    case "V":
+    case "IV":
       summonerPoints += 0;
       break;
-    case "IV":
+    case "III":
       summonerPoints += 100;
       break;
-    case "III":
+    case "II":
       summonerPoints += 200;
       break;
-    case "II":
-      summonerPoints += 300;
-      break;
     case "I":
-      summonerPoints += 400;
+      summonerPoints += 300;
       break;
     default:
       summonerPoints += 0;
@@ -25,31 +22,31 @@ function calculateSummonerPoints(tier, rank, leaguePoints) {
       summonerPoints += 0;
       break;
     case "BRONZE":
-      summonerPoints += 500;
+      summonerPoints += 400;
       break;
     case "SILVER":
-      summonerPoints += 1000;
+      summonerPoints += 800;
       break;
     case "GOLD":
-      summonerPoints += 1500;
+      summonerPoints += 1200;
       break;
     case "PLATINUM":
+      summonerPoints += 1600;
+      break;
+    case "EMERALD":
       summonerPoints += 2000;
       break;
     case "DIAMOND":
-      summonerPoints += 2500;
-      break;
-    case "EMERALD":
-      summonerPoints += 3000;
+      summonerPoints += 2400;
       break;
     case "MASTER":
-      summonerPoints += 3500;
+      summonerPoints += 2800;
       break;
     case "GRAND_MASTER":
-      summonerPoints += 4000;
+      summonerPoints += 3200;
       break;
     case "CHALLENGER":
-      summonerPoints += 4000;
+      summonerPoints += 3600;
       break;
     default:
       summonerPoints += 0;
@@ -57,5 +54,4 @@ function calculateSummonerPoints(tier, rank, leaguePoints) {
   }
   return summonerPoints;
 }
-
 export default calculateSummonerPoints;
