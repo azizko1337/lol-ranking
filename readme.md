@@ -2,8 +2,6 @@
 
 ### This project is API which checks given people' League of Legends ranking points every 1 hour (00:00, 01:00, ...). Every midnight ranking snapshot is saved to SQLITE database.
 
-## Currently hosted on https://ranking.azalupka.cc
-
 ## Instruction to run this project:
 
 0. You have to have installed Node.js and npm (and added to PATH)
